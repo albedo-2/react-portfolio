@@ -1,5 +1,5 @@
 import React from 'react'
-import xFighter from '../assets/portfolio/xFighter.jpg'
+import django_todolist from '../assets/portfolio/django_todolist.jpg'
 import tieFighter from '../assets/portfolio/tieFighter.jpg'
 
 const Portfolio = () => {
@@ -7,7 +7,9 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src:xFighter
+      src:django_todolist,
+      demo:'https://www.youtube.com/watch?v=sprd65gqXY4',
+      code:'https://github.com/albedo-2/django-todo-list',
     },
     {
       id: 2,
@@ -30,15 +32,15 @@ const Portfolio = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
         px-12 sm:px-0'>
         {
-          portfolios.map(({id, src}) => (
+          portfolios.map(({id, src, demo, code}) => (
             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={src} alt='' 
             className='rounded-md duration-200 hover:scale-105' />
             <div className='flex items-center justify-center'>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200
-              hover:scale-105'>Demo</button>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200
-              hover:scale-105'>Code</button>
+              <a href={demo} target="_blank" rel="noopener noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200
+              hover:scale-105'>Demo</button></a>
+              <a href={code} target="_blank" rel="noopener noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200
+              hover:scale-105'>Code</button></a>
             </div>
           </div>
           ))
