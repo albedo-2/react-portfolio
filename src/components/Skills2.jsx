@@ -48,7 +48,7 @@ const Skills2 = () => {
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col
         justify-center w-full text-white'>
           <div>
-            <p className='py-6'>These are the technologies I have experience to my past job roles</p>
+            <p className='py-6'>My current hands-on experience of tools and technologies</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-3

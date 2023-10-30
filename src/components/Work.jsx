@@ -3,37 +3,45 @@ import ama from "../assets/ama.png";
 import accenture from "../assets/accenture.png";
 import ibm from "../assets/ibm.png";
 import atos from "../assets/atos.png";
-
+import bpi from "../assets/bpi.png";
 
 const Work = () => {
 
   const work = [
     {
       id: 1,
-      src: atos,
-      institute: 'ATOS Information Technology, Inc.',
-      title: 'IT Service Desk Analyst',
-      date:'May 2022 - October 2022 | 6 months', 
-      tasks:'Troubleshoots through inbound calls of hardware and software problems (third party and inhouse applications) involving technical resources to ensure resolution; Providing password reset and account unlock using Active Directory.'     
+      src: bpi,
+      institute: 'Bank of the Philippine Islands (BPI)',
+      title: 'Software Quality Assurance Tester',
+      date:'March 2023 - Present', 
+      tasks:'Executing UAT test cases. Performing functional testing, backend testing and downtime testing. Bug reporting and management.'     
     },
     {
       id: 2,
-      src: ibm,
-      institute: 'IBM Business Services, Inc.',
-      title: 'HR Contact Center Representative',
-      date:'March 2021 - April 2022 | 1 year and 2 months',
-      tasks: 'Receive inbound and outbound calls from employees and answer HR inquiries such as HR policies, payroll, benefits and recruitment.',
+      src: atos,
+      institute: 'ATOS Information Technology, Inc.',
+      title: 'IT Service Desk Analyst',
+      date:'May 2022 - October 2022', 
+      tasks:'Troubleshoots through inbound calls of hardware and software problems (third party and inhouse applications) involving technical resources to ensure resolution; Providing password reset and account unlock using Active Directory.'     
     },
     {
       id: 3,
-      src: accenture,
-      institute: 'Accenture, Inc.',
-      title: 'Software Quality Assurance Engineer',
-      date:'April 2019 - June 2020 | 1 year and 3 months',
-      tasks:'Analyzing and reading of test requirements, test case execution, write and track bug reports using Jira/RTC. Work in coordination with the development team to resolve issues and complete the project activities.',
+      src: ibm,
+      institute: 'IBM Business Services, Inc.',
+      title: 'HR Contact Center Representative',
+      date:'March 2021 - April 2022',
+      tasks: 'Receive inbound and outbound calls from employees and answer HR inquiries such as HR policies, payroll, benefits and recruitment.',
     },
     {
       id: 4,
+      src: accenture,
+      institute: 'Accenture, Inc.',
+      title: 'Software Quality Assurance Engineer',
+      date:'April 2019 - June 2020',
+      tasks:'Analyzing and reading of test requirements, test case execution, write and track bug reports using Jira/RTC. Work in coordination with the development team to resolve issues and complete the project activities.',
+    },
+    {
+      id: 5,
       src: ama,
       institute: 'AMA Fairview Computer College',
       title:'Bachelor of Science in Computer Science',
